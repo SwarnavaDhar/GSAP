@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP class 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="string">
+        <svg width="590" height="160">
+            <path d="M 10 100 Q 500 100 990 100" stroke="black" fill="transparent"/>
+          </svg>          
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src = "script.js"></script>
+</html>
+
+
+
+<!-- Scalable vector Graphic (SVG) - used to make 2D graphics
+
+svg : treated like a container  and it has attributes  height and width,
+path : child of svg element , it can be used to create Lines, Curves, Arcs and more.
+- stroke : "color" => attribute used to provide color to the line or path 
+- d : "commands and parameters " => attribute contains series of commands and parameter used by these commands.
+
+example: 
+<svg width="500" height="200">
+     <path d="M x y Q x1 y1 x2 y2" stroke="black" fill="transparent" />  
+</svg>
+
+=> here 
+- M : "move to" command 
+- x : x axis coordinate ,  
+- y : y axis coordinate
+
+Curves => in path curves are two types CUBIC CURVE and QUADRATIC CURVES
+- C : used for cubic curve => it is complex and it has two control points
+- Q : used for Quadratic curve => it is simpler  than cubic and it has one control point
+
+GSAP property -------------------------------------------------------------------------------------
+
+- attr : {key: value} => used to manipulate attributes of html element, it contains value as object in which key is attribute itself and value is value of attribute.
+- ease : used for provide easing to element , there are multiple predefined easing functions you can check out on GSAP official website
+
+YOU CAN use {ease : "elastic.out(1, 0.2)"}  which is predefined easing function to animate like guitar string -->
