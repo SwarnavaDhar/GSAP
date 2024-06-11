@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    color:aliceblue;
+    font-family: verdana;
+    font-size: 50px;
+    overflow: hidden;
+}
+
+.main h1 span{ /*the span is made in JS file, not in HTML */
+   display: inline-block; 
+}
