@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.page1, .page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: orange; */
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.page2 h1{
+    color: red;
+    font-size: 40vw;
+    text-transform: uppercase;
+    font-weight: 100;
+}
