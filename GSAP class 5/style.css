@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: skyblue; */
+    background: url("https://www.treehugger.com/thmb/w2dViRblhQ1rYMMyYcx-n8idY0A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/clouds-128082585-e371ed6111184c6fa8cfa77313bc18e3.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    color:White
+}
+.nav h2{
+    font-size:35px;
+    font-weight:500;
+    font-family: verdana;
+}
+.nav i{
+    font-size:25px;
+    font-weight:800;
+    cursor: pointer;
+}
+.full{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(190, 237, 255, 0.369);
+    position: absolute;
+    top: 0;
+    right: -30%;
+    backdrop-filter: blur(10px);
+}
+.full ul{
+    padding: 150px 50px;
+}
+.full ul li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    list-style-type:none;
+    font-family: verdana;
+    font-weight: 100;
+}
+.full ul i{
+    font-size:20px;
+    font-weight:800;
+    font-family: verdana;
+    position: absolute;
+    top: 3%;
+    right: 17%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
